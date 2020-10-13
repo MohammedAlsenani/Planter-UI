@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="shortcut icon" href="../assets/images/01-96x96.png" type="image/x-icon">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="Login/css/util.css">
+    <link rel="stylesheet" type="text/css" href="Login/css/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="/Planter-web/assets/web/assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="/Planter-web/assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+    <link rel="stylesheet" href="/Planter-web/assets/tether/tether.min.css">
+    <link rel="stylesheet" href="/Planter-web/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Planter-web/assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/Planter-web/assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/Planter-web/assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="/Planter-web/assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="/Planter-web/assets/theme/css/style.css">
+    <link rel="preload" as="style" href="/Planter-web/assets/mobirise/css/mbr-additional.css">
+    <link rel="stylesheet" href="/Planter-web/assets/mobirise/css/mbr-additional.css" type="text/css">
+</head>
+
+<STYLE>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .container-login100 {
+        background-color: darkslategrey;
+    }
+</STYLE>
+
+<body>
+    <section class="menu menu1 cid-scKDXJZQ7Q" once="menu" id="menu1-k">
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="/Planter-Web/index.html">
+                            <img src="/Planter-Web/assets/images/01-96x96.png" alt="Planter" style="height: 3rem;">
+                        </a>
+                    </span>
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-7" href="/Planter-Web/index.html">Planter</a></span>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true" style="flex: auto;">
+                        <li class="nav-item dropdown"><a class="nav-link link text-primary dropdown-toggle display-7" href="#" data-toggle="dropdown-submenu" aria-expanded="false">
+                                Plants</a>
+                            <div class="dropdown-menu">
+                                <a class="text-primary dropdown-item display-7" href="/Planter-Web/index.html">
+                                    Indoor Plants
+                                </a>
+                                <a class="text-primary dropdown-item display-7" href="/Planter-Web/index.html">
+                                    Outdoor Plants
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link text-primary display-7" href="">
+                                About us
+                            </a>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link link text-primary display-7" href="/Planter-Web/index.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+
+                        <li class="nav-item"><a class="nav-link link text-primary display-7" href="/Planter-Web/signup.html">Sign up</a></li>
+
+                        <li class="nav-item"><a class="nav-link link text-primary display-7" href="/Planter-Web/login.html">Login</a></li>
+
+                    </ul>
+        </nav>
+        </div>
+        </div>
+    </section>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
+                <form class="login100-form validate-form flex-sb flex-w" method="" action="">
+                    <div>
+                        <img class="center" width="150" src="/Planter-Web/images/01.png">
+
+                    </div>
+                    <span class="login100-form-title p-b-32">
+						Account Login
+					</span>
+
+                    <span class="txt1 p-b-11">
+						E-mail/Username
+					</span>
+                    <div class="wrap-input100 validate-input m-b-36" data-validate="Username is required">
+                        <input class="input100" type="text" name="mailuid">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <span class="txt1 p-b-11">
+						Password
+					</span>
+                    <div class="wrap-input100 validate-input m-b-12" data-validate="Password is required">
+                        <span class="btn-show-pass">
+							<i class="fa fa-eye"></i>
+						</span>
+                        <input class="input100" type="password" name="pwd">
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="flex-sb-m w-full p-b-48">
+                        <div class="contact100-form-checkbox">
+                            <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                            <label class="label-checkbox100" for="ckb1">
+								Remember me
+							</label>
+                        </div>
+
+                        <div>
+                            <a href="#" class="txt3">
+								Forgot Password?
+							</a>
+                        </div>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn" name="login-submit">
+							Login
+						</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="Login/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="Login/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="Login/vendor/bootstrap/js/popper.js"></script>
+    <script src="Login/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="Login/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="Login/vendor/daterangepicker/moment.min.js"></script>
+    <script src="Login/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="Login/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="Login/js/main.js"></script>
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                    © Copyright 2020 Planter - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Planter-Web/assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="/Planter-Web/assets/popper/popper.min.js"></script>
+    <script src="/Planter-Web/assets/tether/tether.min.js"></script>
+    <script src="/Planter-Web/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Planter-Web/assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="/Planter-Web/assets/dropdown/js/nav-dropdown.js"></script>
+    <script src="/Planter-Web/assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="/Planter-Web/assets/touchswipe/jquery.touch-swipe.min.js"></script>
+    <script src="/Planter-Web/assets/theme/js/script.js"></script>
+
+</body>
+
+</html>
